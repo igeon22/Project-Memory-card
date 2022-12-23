@@ -1,0 +1,148 @@
+
+body{
+  width: 98%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: calibri;
+}
+
+#second{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+#second:hover{
+  color: yellow;
+  text-decoration:dashed;
+}
+
+
+
+header{
+  background-color: black;
+  height: 60px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+ 
+}
+
+#rules{
+  text-align: center;
+  font-weight: bold;
+}
+
+#score-bar{
+  display: flex;
+  align-items: center;
+  height: 25px;
+  justify-content: flex-end;
+}
+
+.score{
+  display: inline;
+  margin-right: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.all-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.block{
+  width: 320px;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  gap:30px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-cont{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.block-text{
+  width: 300px;
+  background-color: white;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0 auto;
+  font-family: calibri;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.block-text:hover{
+  opacity: 0.8;
+}
+
+.block-text:active{
+  box-shadow: 1px 1px 1px white;
+}
+
+.image-block{
+  width: 300px;
+  height: 250px;
+}
+
+.play-btn{
+  width: 250px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  margin-top: 100px;
+}
+
+.play-btn>button{
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+.play-btn>button:hover{
+  opacity: 0.8;
+}
+
+.play-btn>button:active{
+  box-shadow: 1px 1px 1px white;
+}
+
+footer{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.end{
+  font-family: calibri;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+.end:hover{
+  color: green;
+}
