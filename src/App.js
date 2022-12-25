@@ -68,7 +68,7 @@ function App(props) {
             });
         };
         scoreAdd();
-        document.title = "Title" + pressed;
+        //document.title = "Title" + pressed;
         setBoxesNumber(RandomListGenerator());
     }, [pressed]);
 
